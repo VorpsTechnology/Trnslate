@@ -23,6 +23,6 @@ app.use("/api/:id", async(req, res, next) => {
 app.use("/api/:id/translate" ,TranslateRoute)
 
 
-app.listen(5003,()=>{
+app.listen(5002,()=>{
     console.log(`listening @ port 4000`);
 })
